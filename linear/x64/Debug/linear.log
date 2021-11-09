@@ -1,0 +1,8 @@
+﻿LinkClass.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl LinearList::LinearList(void)" (??0LinearList@@QEAA@XZ)，函数 "public: __cdecl LinkList::LinkList(class LinkList &)" (??0LinkList@@QEAA@AEAV0@@Z) 中引用了该符号
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl LinearList::LinearList(void)" (??0LinearList@@QEAA@XZ)
+LinkClass.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl LinearList::~LinearList(void)" (??1LinearList@@QEAA@XZ)，函数 "int `public: __cdecl LinkList::LinkList(class dtor$0 &)'::`1'::dtor$0" (?dtor$0@?0???0LinkList@@QEAA@AEAV0@@Z@4HA) 中引用了该符号
+linklist.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl LinearList::~LinearList(void)" (??1LinearList@@QEAA@XZ)
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl LinearList::~LinearList(void)" (??1LinearList@@QEAA@XZ)
+seqlist.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl LinearList::~LinearList(void)" (??1LinearList@@QEAA@XZ)
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl SeqList::Sort(void)" (?Sort@SeqList@@UEAAXXZ)
+D:\jby\数据结构\PPT\template\linerlist\linear\x64\Debug\linear.exe : fatal error LNK1120: 3 个无法解析的外部命令

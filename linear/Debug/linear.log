@@ -1,0 +1,9 @@
+﻿  linearDlg.cpp
+LinkClass.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall LinearList::LinearList(void)" (??0LinearList@@QAE@XZ)，函数 "public: __thiscall LinkList::LinkList(class LinkList &)" (??0LinkList@@QAE@AAV0@@Z) 中引用了该符号
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall LinearList::LinearList(void)" (??0LinearList@@QAE@XZ)
+LinkClass.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall LinearList::~LinearList(void)" (??1LinearList@@QAE@XZ)，函数 __unwindfunclet$??0LinkList@@QAE@AAV0@@Z$0 中引用了该符号
+linklist.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall LinearList::~LinearList(void)" (??1LinearList@@QAE@XZ)
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall LinearList::~LinearList(void)" (??1LinearList@@QAE@XZ)
+seqlist.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall LinearList::~LinearList(void)" (??1LinearList@@QAE@XZ)
+SeqClass.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall SeqList::Sort(void)" (?Sort@SeqList@@UAEXXZ)
+D:\jby\数据结构\PPT\template\linerlist\linear\Debug\linear.exe : fatal error LNK1120: 3 个无法解析的外部命令
